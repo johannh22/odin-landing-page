@@ -1,5 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
+html {
+  font-size: 62.5%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap");
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.header-logo img {
+    border: none;
+}
+
+.header-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+/* Hero section */
+
+.hero-section {
+  background-color: #1f2937;
+}
+
+.hero-section .main-text {
+  font-size: 4.8rem;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-section .sec-text {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #e5e7eb;
+}
+
+.sign-up-hero {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Information section */
+
+.information {
+  background-color: #f9faf8;
+}
+
+.information h2 {
+  font-size: 3.6rem;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+/* Quote section */
+.quote {
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.quote-text {
+  font-size: 3.6rem;
+  font-weight: 300;
+}
+
+.quote-author {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+/* Call to action section */
+.call-to-action {
+  background-color: #e5e7eb;
+}
+
+.action-container {
+  color: #e5e7eb;
+  background-color: #3882f6;
+}
+
+.action-left-container h3 {
+  font-weight: 700;
+}
+
+.action-left-container p {
+    font-weight: 300;
+}
+
+.action-sign-up {
+    border: 1px solid #e5e7eb;
+    color: #e5e7eb;
+    background-color: #3882f6;
 }
