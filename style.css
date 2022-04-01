@@ -15,6 +15,7 @@ body {
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
+  overflow: scroll;
 }
 
 /* Header */
@@ -52,6 +53,18 @@ body {
 
 .hero-section {
   background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 20rem;
+  gap: 5rem;
+}
+
+.hero-left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 50rem;
 }
 
 .hero-section .main-text {
@@ -71,6 +84,16 @@ body {
   color: #f9faf8;
   border: none;
   border-radius: 5px;
+  flex-basis: auto;
+  width: 7.5rem;
+  padding: .7rem;
+  font-weight: bold;
+}
+
+.hero-right-container img {
+    height: 200px;
+    width: 500px;
+    border: none;
 }
 
 /* Information section */
