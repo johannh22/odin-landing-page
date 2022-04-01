@@ -178,7 +178,9 @@ body {
   flex: 1;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10rem;
+  gap: 3rem;
 }
 
 .action-left-container h3 {
@@ -195,4 +197,22 @@ body {
   border: 1px solid #e5e7eb;
   color: #e5e7eb;
   background-color: #3882f6;
+  border-radius: 5px;
+  flex-basis: auto;
+  width: 15rem;
+  padding: 0.7rem;
+  font-weight: bold;
+  flex-shrink: 0;
+  height: 4rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 1.4rem;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
