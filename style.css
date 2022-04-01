@@ -165,20 +165,30 @@ body {
 
 /* Call to action section */
 .call-to-action {
-  background-color: #e5e7eb;
+  background-color: #f9faf8;
+  padding: 10rem 20rem;
+  display: flex;
+  justify-content: center;
 }
 
 .action-container {
   color: #e5e7eb;
   background-color: #3882f6;
+  border-radius: 10px;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 10rem;
 }
 
 .action-left-container h3 {
   font-weight: 700;
+  font-size: 2.4rem;
 }
 
 .action-left-container p {
   font-weight: 100;
+  font-size: 1.4rem;
 }
 
 .action-sign-up {
