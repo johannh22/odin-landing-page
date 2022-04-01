@@ -181,6 +181,7 @@ body {
   align-items: center;
   padding: 10rem;
   gap: 3rem;
+  height: 5rem;
 }
 
 .action-left-container h3 {
